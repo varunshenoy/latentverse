@@ -18,7 +18,7 @@ You can deploy the frontend web app locally as follows:
 2. `cd` into `webapp`
 3. Run `npm install`
 
-Unfortunately, you can't run the backend locally quite yet! We use Baseten, a serverless GPU provider for ML applications. The `deployment` folder has a Truss that can be deployed on Baseten.
+Unfortunately, you can't run the backend locally quite yet! We use Baseten, a serverless GPU provider for ML applications. The `deployment` folder has a Truss that can be deployed on [Baseten](https://baseten.co).
 
 1. Create an account on Baseten.
 2. Run `pip install truss`
