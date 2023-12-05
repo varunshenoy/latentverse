@@ -1,0 +1,27 @@
+environment_variables: {}
+external_package_dirs: []
+model_metadata: {}
+model_name: LCM-VR
+python_version: py39
+model_cache:
+  - repo_id: artificialguybr/360Redmond
+  - repo_id: latent-consistency/lcm-lora-sdxl
+  - repo_id: stabilityai/stable-diffusion-xl-base-1.0
+    allow_patterns:
+      - "*.txt"
+      - "*.json"
+      - "*.fp16.safetensors"
+      - sd_xl_base_1.0.safetensors
+requirements:
+  - torch
+  - transformers
+  - accelerate
+  - diffusers
+  - peft
+resources:
+  accelerator: A10G
+  cpu: "8"
+  memory: 32Gi
+  use_gpu: true
+secrets: {}
+system_packages: []
