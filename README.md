@@ -1,6 +1,6 @@
-# LatentVerse
+# Latentverse 🧑‍🚀
 
-LatentVerse uses latent consistency models (LCMs) and a custom LoRA ([360Redmond](https://civitai.com/models/118025/360redmond-a-360-view-panorama-lora-for-sd-xl-10)) to generate 360-degree equirectangular photos in seconds.
+Latentverse uses latent consistency models (LCMs) and a custom LoRA ([360Redmond](https://civitai.com/models/118025/360redmond-a-360-view-panorama-lora-for-sd-xl-10)) to generate 360-degree equirectangular photos in seconds.
 
 It's like Rick's portal gun, or Google Street View for your imagination.
 
